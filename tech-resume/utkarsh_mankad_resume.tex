@@ -1,0 +1,318 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+% Roboto Font
+\usepackage[sfdefault]{roboto}
+% Text justification package
+\usepackage[document]{ragged2e}
+
+\pagestyle{fancy}
+% clear all header and footer fields
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{\href{https://www.linkedin.com/in/utkarsh-mankad/}{\Large Utkarsh Mankad}} & Email : \href{mailto:utkarsh.mankad@gmail.com}{utkarsh.mankad@gmail.com}\\
+	\href{https://www.linkedin.com/in/utkarsh-mankad/}{LinkedIn}{$|$ \href{https://github.com/utkarshmankad}{GitHub}} & Mobile : +91-8095173074 \\
+	& Address: SG Palya, CV Raman Nagar, Bangalore - 560093
+\end{tabular*}
+
+%-----------CAREER SUMMARY-----------------
+\section{Career Summary}
+{Senior member having 10 plus years of experience in end to end Solution Development and Deployment and application oriented  Research and Development (RnD).
+	
+	Contributed individually while working in multiple product development projects having cross domain, and cross organization teams.Worked on several off the shelf research projects with usable technical outcomes and transfer of technology.  
+	
+	Mentor and hand hold new team members in the team and enable them to make tangible individual contributions to the project in short period of time.
+	
+Having fast learning curve, with passion to grasp new technologies, paradigms and capability to develop tangible outcomes through any software stack.}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Birla Institute of Technology and Science}{Pilani, India}
+{Master of Technology in Software Systems}{2017 -- 2019}
+\resumeSubheading
+{C-DAC Advanced Computing Training School}{Pune, India}
+{Post Graduate Diploma in Wireless and Mobile Computing}{Feb. 2010 -- July. 2010}
+\resumeSubheading
+{Jaipur Engineering College (Rajasthan University)}{Jaipur, India}
+{Bachelor of Engineering (Electronics and Communication)}{2005 -- 2009}
+\resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+\resumeSubHeadingListStart
+\resumeSubItem{Work Domains}
+{Smart Cities, Internet Of Things, Augmented Reality (AR), E-Learning, Location Based Services (LBS)}
+\resumeSubItem{Languages Known}
+{C++, Java, Python(Basics), JavaScript, TypeScript, HTML, CSS}
+\resumeSubItem{Skills}
+{Android, Angular, React, Bootstrap, REST API, Flutter, MEAN Stack, Spring Boot (Basics), Microservices}
+\resumeSubItem{Software Configuration Management (SCM)}
+{Git, GitHub, Bit Bucket, SVN}
+\resumeSubItem{IDEs}
+{Android Studio, MS Visual Studio Code, Eclipse, NetBeans, Atom, Code Blocks}
+\resumeSubItem{DevOps}
+{Docker, CI/CD through GitHub Actions}
+\resumeSubItem{Operating Systems}
+{Windows, Linux (Debian), Mac OS}
+\resumeSubItem{Documentation}
+{LaTex}
+\resumeSubItem{Soft Skills}
+{Client interactions and Deployments, Preparing technical project documentation, Preparing Software Manuals}
+\resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Center of Development of Advanced Computing}{Bengaluru, India}
+{Prinicipal Technical Officer}
+{Jan 2020 - Present}
+\resumeItemListStart
+\resumeItem{Future Skills Prime}{Setting up E-Learning Platform with virtual labs to host Skill building courses}
+    
+{\textbf{Technologies used: }{Docker, Moodle, Fiware, SCORM, XAPI}
+	\begin{itemize}
+		\item{Developing virtual lab for IoT courses}
+		\item {Setting up Moodle for hosting courses}
+		\item {SSO integration and XAPI integration}
+	\end{itemize}
+	\resumeItem{IoT Platform Design Review}{Design review of IoT Platform for leading PSU company}
+	    
+	{\textbf{Technologies used: }{Fiware, Microservices, Angular, Docker}
+		\begin{itemize}
+			\item{Architecture design review of IoT Platform}
+			\item {Suggested key changes for performance improvement and clean architecture}
+			\item {Suggested best practices in backend and front end design}
+		\end{itemize}
+		\resumeItem{NAADI(National Analytical Platform for Dealing with Intelligent Tracing, Tracking and Containment of COVID19 Pandemic) Framework - Health Worker Mobile App}{Mobile app for Health Workers for COVID data collection}
+		    
+		{\textbf{Technologies used: }{Android, Google Maps, MapMyIndia Maps, RetroFit}
+			\begin{itemize}
+				\item{Complete development of patient record entry module}
+				\item{Working with cross organizational teams in Agile environment}
+				\item{Completed all the requirements in record time and delivered the app to major states.}
+			\end{itemize}
+\resumeItemListEnd
+			
+			\resumeSubSubheading
+			{Senior Technical Officer}{Jan 2016 - Dec 2019}
+			\resumeItemListStart
+			\resumeItem{Smart City Applications}{Solutions under the Smart City technology Development projects}
+			    
+			{\textbf{Technologies used: }{Android, Flutter, Angular, React, REST, D3, Postman}
+				\begin{itemize}
+					\item{\textbf{Smart Post Kiosk Mobile App}}{$:$ Developed mobile application for Postal Dept. assising the users to generate token number for Smart Post Kiosk unit}
+					\item{\textbf{Smart Water Distribution Network monitoring and control Dashboard}}{$:$ Designed and Developed Smart Water Distribution network control and visualization dashboard}
+					\item{\textbf{Smart Indoor Air Quality monitoring dashboard}}{$:$ Designed and Developed Smart Indoor Air Quality sensor visualization dashboard}
+				\end{itemize}
+				
+				\resumeItem {Bird Call - Avian Acoustics Analysis Mobile Application}{A system for Avian Acoustics of Bird sounds in various geographical areas}
+				    
+				{\textbf{Technologies used: }{Android, USB, Bluetooth}
+					\begin{itemize}
+						\item{Stabilized Android App that connects to custom hardware via USB and Bluetooth.}
+						\item {Made the app highly customized and utilized Bluetooth serial API to transfer data serially over Bluetooth}
+					\end{itemize}
+					
+					\resumeItem{Eclipse Plugin for CDAC WSN Node}{Development of an Eclipse Plugin that would reduce the complexity of programming the C-DAC Motes for various IoT applications.}
+					    
+					{\textbf{Technologies used: }{C, Java, ARM Embedded C Toolchain}
+						\begin{itemize}
+							\item Developed the plugin right from scratch.
+							\item Helped in reducing the programming and deployment steps to  mere few clicks on existing Eclipse IDE, thereby increasing productivity with very less learning curve.
+							\item Tested on various linux distros, different Eclipse versions.
+						\end{itemize}
+						\resumeItem {Namma Metro mobile app}{Official Mobile app for Banaglore Metro}
+						    
+						{\textbf{Technologies used: }{Android, Node, Express, REST, Firebase}
+							\begin {itemize}
+							\item Presented proposal for work containing deliverables and scope to BMRCL management.
+							\item Worked as SPOC for both the acting agencies – CDAC and BMRCL
+							\item Prepared technical documentation.
+							\item Developed the following module of the app – Nearest Metro station, Train timing calculator, Trip Planner, Fare calculator, Smartcard recharge, News feed, Metro Map.
+							\item Increased number of downloads by reducing app size and updating of latest data through Trip Planner server.
+							\item Solved bugs and added new features in every release.
+							\end {itemize}
+							\resumeItemListEnd
+							
+							\resumeSubSubheading{Technical Officer}{Jan 2011 - Dec 2015}
+							\resumeItemListStart
+							\resumeItem{Augmented Reality Products in Education : AR Board, AR Book, AR Game}{Technology development of Augmented Reality solutions on lightweight devices for E-Learning}
+							    
+							{\textbf{Technologies Used:}{C++, OpenCV, Android, Node, Express, Mongo, Bootstrap, REST}}
+							\begin{itemize}
+								\item Presented proposal for work containing deliverables and scope to MeiTY committee.
+								\item Developed the AR Book and AR Game mobile apps with modules – Book and Chapter selection, content download, image and video rendering, Game arena setup, step and direction detection.
+								\item Prepared project documentation, Software User Manuals.
+								\item Solved bugs and added new features in every release.
+								\item Deployed the products at client (To whom technology was transferred) location.
+							\end{itemize}
+							\resumeItem{Augmented Reality Components Library Framework (ARCLib Framework) for Android}{Augmented Reality framework for Android Application Development for lightweight mobile device}
+							    
+							{\textbf{Technologies used:} Android, OpenCv, REST}
+							\begin{itemize}
+								\item Presented proposal for work containing deliverables and scope to MeiTY committee.
+								\item Developed the modules – 2D image, Video and Gif augmentation and rendering, LBS library using Google API, Foursquare API.
+								\item Designed a custom AR marker to be used.
+								\item Prepared the project documentation
+								\item Written software manual and examples from this framework
+								\item Solved bugs and added new features in every release.
+								\item Deployed the products at client location.
+							\end{itemize}
+							\resumeItemListEnd
+							\resumeSubSubheading
+							{Project Engineer}{Aug 2010 - Dec 2011}
+							\resumeItemListStart
+							\resumeItem{Mobile apps and SMS service for Grid Job resubmission}
+							{Additional service to resubmit GARUDA Grid Job through SMS and Mobile App.}
+							
+							{\textbf{Technologies used:} Android, Java Servlets, SMS Gateway}
+							\begin{itemize}
+								\item Re submission of ongoing job on GARUDA Grid, by allowing to change params. And obtain live job status. Also an SMS service to achieve the same. This service worked in conjunction with GARUDA grid job portal.
+								\item Displaying the snapshot of the grid params on request through simple mobile app.
+							\end{itemize}
+							\resumeItemListEnd
+							      
+							% --------Multiple Positions Heading------------
+							%    \resumeSubSubheading
+							%     {Software Engineer I}{Oct 2014 - Sep 2016}
+							%     \resumeItemListStart
+							%        \resumeItem{Apache Beam}
+							%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+							%     \resumeItemListEnd
+							%    \resumeSubHeadingListEnd
+							%-------------------------------------------
+							\resumeSubHeadingListEnd
+							
+							%
+							%--------AWARDS & RECOGNITION------------
+							\section{Awards and Recognition}
+							\resumeSubHeadingListStart
+							\resumeSubItem{52nd SKOTCH Award}
+							{52nd SKOTCH Award for the Project Entry - Design and Development of Context Aware Mobile Assistant Augmented Reality Framework for Learning Environment}
+							\resumeSubItem{DG Award (Special Mention)}
+							{Received special mention for DG award (CDAC internal) for Project - Smart Post Kiosk under Smart Cities project}
+							\resumeSubItem{DG Award (Runners Up)}
+							{Received special mention for DG award (CDAC internal) for Project - NAADI: National Analytical Platform for Dealing with Intelligent Tracing, Tracking and Containment of COVID19 Pandemic}
+							\resumeSubHeadingListEnd
+							
+							
+							%-----------GITHUB PROJECTS-----------------
+							\section{GitHub Projects}
+							\resumeSubHeadingListStart
+							\resumeSubItem{\href{https://github.com/utkarshmankad/Chandy-Misra-Haas-AND-model}{Chandy-Misra-Haas-AND-model}}
+							{C++ implementation of  Chandy-Misra-Haas Deadlock Detection Algorithm using AND model}
+							\resumeSubItem{\href{https://github.com/utkarshmankad/suzuki-kasami-broadcast-algorithm}{suzuki-kasami-broadcast-algorithm}}
+							{C++ Demo Implementation of Suzuki-Kasami-Broadcast based algorithm for Distributed Systems}
+							\resumeSubItem{\href{https://github.com/utkarshmankad/d3v5-collapsible-tree-zoom-pan-drag}{d3v5-collapsible-tree-zoom-pan-drag}}
+							{Angular 8 implementation of Horizontal Collapsible tree layout using D3v5}
+							\resumeSubHeadingListEnd
+							  
+							%-----------PUBLICATIONS-----------------
+							\section{Publications}
+							\resumeSubHeadingListStart
+							\resumeSubItem{An Augmented Reality ecosystem for learning environment}
+							{Dec 17, 2018, Proceedings of 2018 IEEE International Conference on Advanced Networks and Telecommunications Systems (ANTS)}
+							\resumeSubItem{Mobile Augmented Reality based Indoor Game for learning environment}
+							{March 7,2017, International Journal Of Advanced Scientific Technologies, Engineering and Management Sciences, 2017}
+							\resumeSubItem{Application of sensors in Augmented Reality based interactive learning environments}
+							{Dec. 20, 2012, Application of sensors in Augmented Reality based interactive learning environments}
+							\resumeSubHeadingListEnd
+							  
+							%-----------OTHER ACTIVITIES-----------------
+							\section{Other Activities}
+							\resumeSubHeadingListStart
+							\resumeSubItem{Instructor at ACTS training school}
+							{Taught subjects - Android Programming, Basics of Swift, Data Structures and Algorithms; average ratings of 4.5 out of 5.0.}
+							\resumeSubItem{Hosting and Conducting various workshops}
+							{Successfully coordinated and conducted multiple national workshops on Augmented Reality, Internet of Things}
+							\resumeSubItem{Visiting faculty and Invited Speaker}
+							{Visiting faculty at TCE, Madurai for Augmented Reality. Invited speaker at various workshops and colleges for Augmented Reality, Internet of Things}
+							\resumeSubItem{Project Mentor and Guide}
+							{Mentor and guide fresh and young engineers at ACTS school in developing Mobile applications and IoT Software systems.}
+							\resumeSubItem{Open Source contributor}
+							{Contribute to open source in RnD projects.}
+							\resumeSubItem{E-Learning Content Creator}
+							{Create content for Blended learning courses in Mobile Application development, Cloud Computing.}
+							\resumeSubHeadingListEnd
+							  
+							%-----------DECLARATION-----------------
+							\section{Declaration}
+							{I hereby declare that, the information mentioned above is correct and true to the best of my knowledge and belief.}
+							%-------------------------------------------
+\end{document}
