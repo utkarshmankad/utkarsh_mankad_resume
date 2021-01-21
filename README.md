@@ -11,6 +11,12 @@ Added few new sections based on my need. Added new font family.
 
 ![Resume Screenshot](/resume-preview.png)
 
+### Single Page Resume using altacv theme
+
+In the /lead-role-resume folder, a one page resume using altacv-theme is provided.
+
+![Resume Screenshot](/one-page.png)
+
 ### License
 
 Format is MIT but all the data is owned by Utkarsh Mankad.
