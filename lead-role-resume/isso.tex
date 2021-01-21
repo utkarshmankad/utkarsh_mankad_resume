@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%
+% This is an example CV created using altacv.cls (v1.1.5, 1 December 2018) written by
+% LianTze Lim (liantze@gmail.com), based on the
+% Cv created by BusinessInsider at http://www.businessinsider.my/a-sample-resume-for-marissa-mayer-2016-7/?r=US&IR=T
+%
+%% It may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%    http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2003/12/01 or later.
+%%%%%%%%%%%%%%%%
+
+%% If you are using \orcid or academicons
+%% icons, make sure you have the academicons
+%% option here, and compile with XeLaTeX
+%% or LuaLaTeX.
+% \documentclass[10pt,a4paper,academicons]{altacv}
+
+%% Use the "normalphoto" option if you want a normal photo instead of cropped to a circle
+% \documentclass[10pt,a4paper,normalphoto]{altacv}
+
+\documentclass[10pt,a4paper,ragged2e]{altacv}
+
+%% AltaCV uses the fontawesome and academicon fonts
+%% and packages.
+%% See texdoc.net/pkg/fontawecome and http://texdoc.net/pkg/academicons for full list of symbols. You MUST compile with XeLaTeX or LuaLaTeX if you want to use academicons.
+
+% Change the page layout if you need to
+\geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm}
+
+% Change the font if you want to, depending on whether
+% you're using pdflatex or xelatex/lualatex
+\ifxetexorluatex
+  % If using xelatex or lualatex:
+  \setmainfont{Carlito}
+\else
+  % If using pdflatex:
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage[default]{lato}
+\fi
+
+% Change the colours if you want to 3E0097
+\definecolor{VividPurple}{HTML}{2F2F2F}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{37474F}
+\colorlet{heading}{VividPurple}
+\colorlet{accent}{VividPurple}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+% Change the bullets for itemize and rating marker
+% for \cvskill if you want to
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+%% sample.bib contains your publications
+\addbibresource{sample.bib}
+
+\begin{document}
+\name{Utkarsh Mankad}
+\jobtitle{Team Lead | R\&D Engineer | Mobile and Full Stack Development}
+\tagline{10+ years of experience in Mobile and Full Stack Application development, looking for mid-senior techno-functional roles at dynamic and rewarding product development organizations.}
+% Cropped to square from https://en.wikipedia.org/wiki/Marissa_Mayer#/media/File:Marissa_Mayer_May_2014_(cropped).jpg, CC-BY 2.0
+\photo{2.5cm}{photo}
+\personalinfo{%
+  % Not all of these are required!
+  % You can add your own with \printinfo{symbol}{detail}
+    \email{utkarsh.mankad@gmail.com}
+    \phone{+918095173074}
+    \location{Bangalore, India}
+    \linkedin{linkedin.com/in/utkarsh-mankad/}
+    \github{github.com/utkarshmankad}
+%   \orcid{orcid.org/0000-0000-0000-0000} % Obviously making this up too. If you want to use this field (and also other academicons symbols), add "academicons" option to \documentclass{altacv}
+}
+
+%% Make the header extend all the way to the right, if you want.
+\begin{fullwidth}
+\makecvheader
+\end{fullwidth}
+
+%% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+\AtBeginEnvironment{itemize}{\small}
+
+%% Provide the file name containing the sidebar contents as an optional parameter to \cvsection.
+%% You can always just use \marginpar{...} if you do
+%% not need to align the top of the contents to any
+%% \cvsection title in the "main" bar.
+
+\cvsection[page1sidebar]{Work Experience}
+
+\cvevent{\textbf{Principal Technical Officer (Scientist D)}}{CDAC R\&D}{Jan 2020 -- Present}{Bangalore, India}
+\begin{itemize}
+    \item \textbf{FS Prime Project} - Leading and driving complete initiative of developing E-Learning courses in IOT.
+    \item \textbf{NAADI (COVID 19 Tracking and Tracing) Project} - Contributed in development of multilingual Android apps for record taking by Health Workers.
+    \item \textbf{Smart City Platform review }- Technical review of Smart City Platform of leading defense PSU Company.
+\end{itemize}
+\cvtag{Moodle} 
+\cvtag{MERN Stack}
+\cvtag{Spring Boot}
+\cvtag{Swagger}
+\cvtag{Android}
+\cvtag{Java}
+\cvtag{NodeJs}
+\cvtag{MQTT}
+\cvtag{Agile}
+\cvtag{TDD}
+
+\vspace{10px}
+
+\cvevent{\textbf{Senior Technical Officer (Scientist C)}}{CDAC R\&D \hfill }{Jan 2016 -- Dec 2019}{Bangalore, India}
+\begin{itemize}
+    \item \textbf{Smart Post Kiosk} - Developed mobile app to enable users to book registered and speed post through app and post through smart kiosk.
+    \item \textbf{Smart Water Distribution Network} - Developed modern and intuitive web dashboard to allow users to monitor and analyze sensor data from smart water distribution network test bed.
+    \item \textbf{Indoor and outdoor EQ Management} - Developed modern and intuitive web and mobile dashboard facilitating researchers and civic agencies to monitor and analyze various sensor parameter values for indoor and outdoor environment management .
+    \item \textbf{Bird Call (Avian Acoustics)} - Developed mobile app to configure specialized IOT device that would enable bio diversity researchers to collect bird sounds.
+    \item \textbf{Official Namma Metro Mobile App} - Developed official mobile app for BMRCL that helped the commuters to know latest train time tables and access info regarding BMRCL services.
+\end{itemize}
+\cvtag{Kotlin}
+\cvtag{Java}
+\cvtag{Dart, Flutter}
+\cvtag{Android}
+\cvtag{MEAN Stack}
+\cvtag{NodeJs}
+\cvtag{React}
+\cvtag{Angular}
+\cvtag{Micro-services}
+\cvtag{REST API}
+\cvtag{Agile}
+\cvtag{Scrum}
+\cvtag{TDD}
+
+\vspace{10px}
+
+\cvevent{\textbf{Technical Officer (Scientist B)}}{CDAC R\&D \hfill }{Jan 2012 -- Dec 2015}{Bangalore, India}
+\begin{itemize}
+    \item \textbf{Augmented Reality Products for E-Learning} - AR mobile apps to be used along with E-Learning tools..
+    \item Enabling educators to create AR E-Learning content through web based authoring tool.
+    \item Enabled AR App developers to make simple AR apps through AR App development library made in Java.
+\end{itemize}
+\cvtag{Android}
+\cvtag{Java}
+\cvtag{AR/VR}
+\cvtag{NodeJs}
+\cvtag{MongoDB}
+\cvtag{Agile}
+\cvtag{Scrum}
+
+\vspace{10px}
+
+%\cvevent{Aircraft Maintenance Engineering Internship }{Air %Algerie}{sep 2017 -- Jan 2018}{Algeria, Algiers}
+%\begin{itemize}
+ %   \item Establishment of a Peer-to-peer ATC communication %simulation.
+   % \item Troubleshooting and maintnance of a weather Radar .
+%\end{itemize}
+
+\clearpage
+
+\end{document}
